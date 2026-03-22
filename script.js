@@ -7,7 +7,7 @@ CheckBtn.addEventListener("click", function () {
 
   const UserValue = Number(gessNumUser.value)
 
-  if (!UserValue || isNaN(UserValue)) {
+  if (!UserValue || isNaN(UserValue))    {
     outBut.textContent = "Please enter a valid number"
     return;
   }
