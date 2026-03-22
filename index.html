@@ -11,6 +11,7 @@
         background-color: #444;
         font-family: cursive;
     }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -19,12 +20,15 @@
         height: 90vh;
         justify-content: center;
     }
+
     .container h2 {
         color: white;
     }
-    .container .message {
+
+    .container p {
         color: beige;
     }
+
     .container input {
         padding: 10px 20px;
         border-radius: 8px;
@@ -32,19 +36,24 @@
         color: white;
         border: 1px solid #ffffff;
     }
-    .container input:focus{ 
+
+    .container input:focus {
         outline: none;
     }
+
     .container button {
         padding: 10px 20px;
         background: #2f00ff;
         border: 1px solid #2f00ff;
         border-radius: 9px;
         color: white;
-        transition: 3.0s;
+        transition: 0.3s;
     }
 
-    .loader {
+    .container button:hover{
+        background-color: transparent;
+    }
+     .loader {
         width: 48px;
         height: 48px;
         border-radius: 50%;
